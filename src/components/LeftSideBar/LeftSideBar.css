@@ -1,0 +1,23 @@
+.db-left-side-bar {
+  background: wheat;
+  height: 100%;
+  width: 250px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.db-left-side-bar--header {
+  height: 110px;
+  background: var(--blue-1)
+}
+
+.db-left-side-bar--content {
+  flex: 1;
+  background: linear-gradient(180deg, var(--blue-2), var(--blue-3))
+}
+
+.db-left-side-bar--footer {
+  height: 75px;
+  background: var(--blue-4)
+}

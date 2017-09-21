@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header'
-import LeftSideBar from './components/LeftSideBar'
+import LeftSideBar from './components/LeftSideBar/LeftSideBar'
 import CenterPanel from './components/CenterPanel'
 import './App.css'
 
