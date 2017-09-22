@@ -7,20 +7,19 @@ import tridentUrl from '../../assets/images/trident.png'
 const NavLink = props => (
   <div className="db-nav-link">
     <img src={ icons[props.name] } />
-    <a
-      href={`/${props.name}`}
+    <div
       className={`db-nav-link--label ${props.isActive ? 'active' : ''}`}
-      >
+      onClick={ () => { props.onClick(props.name) } }
+    >
         {props.name}
-    </a>
+    </div>
   </div>
 )
 
 class LeftSideBar extends Component {
   constructor() {
     super();
-    this.linkNames = ['dashboard','feed', 'projects', 'statistics', 'teams'];
-    this.state = { activeLink: this.linkNames[0] };
+    this.linkNames = ['dashboard', 'feed', 'projects', 'statistics', 'teams'];
   }
 
   render() {
@@ -30,7 +29,7 @@ class LeftSideBar extends Component {
           <img src={tridentUrl} />
         </div>
         <div className="db-left-side-bar--content">
-          { this.linkNames.map((name, i) => <NavLink key={i} name={name} isActive={this.state.activeLink == name} />) }
+          { this.linkNames.map((name, i) => <NavLink key={name} name={name} isActive={this.props.tab == name} onClick={this.props.changeTab} />) }
         </div>
         <div className="db-left-side-bar--footer"></div>
       </div>
