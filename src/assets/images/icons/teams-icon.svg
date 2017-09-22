@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="17px" viewBox="0 0 16 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 16 0 16 17 0 17"></polygon>
+    </defs>
+    <g id="SketchAppSources.com" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dark-Dashboard" transform="translate(-245.000000, -613.000000)">
+            <g id="UI" transform="translate(186.000000, 230.000000)">
+                <g id="nav-bar" transform="translate(54.000000, 19.000000)">
+                    <g id="Page-1" transform="translate(5.000000, 364.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M1.6,15.4062 C1.6,13.2972 3.088,11.4762 5.236,10.6182 C6.018,11.2912 6.97,11.6882 8,11.6882 C9.03,11.6882 9.982,11.2912 10.764,10.6182 C12.912,11.4762 14.4,13.2972 14.4,15.4062 L1.6,15.4062 Z M8,1.5942 C9.733,1.5942 11.2,3.5392 11.2,5.8422 C11.2,8.1482 9.733,10.0942 8,10.0942 C6.267,10.0942 4.8,8.1482 4.8,5.8422 C4.8,3.5392 6.267,1.5942 8,1.5942 L8,1.5942 Z M11.833,9.3482 C12.436,8.3722 12.8,7.1602 12.8,5.8422 C12.8,2.6152 10.652,0.0002 8,0.0002 C5.348,0.0002 3.2,2.6152 3.2,5.8422 C3.2,7.1602 3.564,8.3722 4.167,9.3482 C1.685,10.5212 0,12.7912 0,15.4062 L0,15.9362 C0,16.5242 0.479,17.0002 1.067,17.0002 L14.933,17.0002 C15.521,17.0002 16,16.5242 16,15.9362 L16,15.4062 C16,12.7912 14.315,10.5212 11.833,9.3482 L11.833,9.3482 Z" id="Fill-1" fill="#7A95C3" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,5 +1,4 @@
 .db-left-side-bar {
-  background: wheat;
   height: 100%;
   width: 250px;
 
@@ -9,7 +8,15 @@
 
 .db-left-side-bar--header {
   height: 110px;
-  background: var(--blue-1)
+  background: var(--blue-1);
+  display: flex;
+  justify-content: center;
+}
+
+.db-left-side-bar--header img {
+  align-self: center;
+  height: 72px;
+  width: 72px;
 }
 
 .db-left-side-bar--content {
@@ -20,4 +27,32 @@
 .db-left-side-bar--footer {
   height: 75px;
   background: var(--blue-4)
+}
+
+.db-nav-link {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  height: 70px;
+  padding-left: 45px;
+}
+
+.db-nav-link img, .db-nav-link--label {
+  align-self: center;
+}
+
+.db-nav-link img {
+  margin-right: 15px;
+}
+
+.db-nav-link--label {
+  color: var(--lavandar-1);
+  text-decoration: none;
+  padding-top: 2px;
+}
+
+.db-nav-link--label.active {
+  color: var(--neon-1);
 }
